@@ -1,0 +1,9 @@
+#
+#  This cfi should be included to parse the muon standalone XML geometry.
+#
+
+es_source = XMLIdealGeometryESSource
+{
+   FileInPath GeometryConfiguration="Geometry/MuonCommonData/data/muonConfiguration.xml"
+   string rootNodeName = "cms:OCMS"
+}
