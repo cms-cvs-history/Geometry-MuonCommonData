@@ -16,10 +16,10 @@
       <File name="Geometry/DTGeometryBuilder/data/dtSpecsFilter.xml" url="."/> 
       <!--Endcap-->
       <File name="Geometry/MuonCommonData/data/mf.xml"               url="."/>
-      <File name="Geometry/CSCGeometryBuilder/data/cscSpecs.xml"             url="."/>
-      <File name="Geometry/CSCGeometryBuilder/data/cscSpecsFilter.xml"       url="."/>
+      <File name="Geometry/CSCGeometryBuilder/data/cscSpecs.xml"     url="."/>
+      <File name="Geometry/CSCGeometryBuilder/data/cscSpecsFilter.xml" url="."/>
       <!--RPC-->
-      <!-- FIXME! File name="Geometry/RPCSimAlgo/data/RPCSpecs.xml"             url="."/--> 
+      <File name="Geometry/RPCGeometryBuilder/data/RPCSpecs.xml"     url="."/> 
       <!--Numbering-->
       <File name="Geometry/MuonCommonData/data/muonNumbering.xml"    url="."/>
       <!--Yoke (relevant for simulation only)-->      
