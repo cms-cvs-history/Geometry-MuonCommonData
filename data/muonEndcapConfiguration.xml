@@ -9,8 +9,8 @@
       <File name="Geometry/CMSCommonData/data/rotations.xml"         url="."/>
       <!--Endcap-->
       <File name="Geometry/MuonCommonData/data/mf.xml"               url="."/>
-      <File name="Geometry/CSCSimAlgo/data/cscSpecs.xml"             url="."/>
-      <File name="Geometry/CSCSimAlgo/data/cscSpecsFilter.xml"       url="."/>
+      <File name="Geometry/CSCGeometryBuilder/data/cscSpecs.xml"             url="."/>
+      <File name="Geometry/CSCGeometryBuilder/data/cscSpecsFilter.xml"       url="."/>
       <!--Numbering-->
       <File name="Geometry/MuonCommonData/data/muonNumbering.xml"    url="."/>
       <!--Yoke (relevant for simulation only)-->      
