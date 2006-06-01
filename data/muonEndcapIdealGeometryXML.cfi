@@ -4,7 +4,24 @@
 
 es_source = XMLIdealGeometryESSource
 {
-   FileInPath 
-GeometryConfiguration="Geometry/MuonCommonData/data/muonEndcapConfiguration.xml"
+   vstring geomXMLFiles = {
+      "Geometry/CMSCommonData/data/cms.xml",
+      "Geometry/CMSCommonData/data/beampipe.xml",
+      "Geometry/CMSCommonData/data/mgnt.xml",
+      "Geometry/CMSCommonData/data/cavern.xml",
+      "Geometry/CMSCommonData/data/materials.xml",  
+      "Geometry/CMSCommonData/data/rotations.xml",
+      # Endcap
+      "Geometry/MuonCommonData/data/mf.xml",
+      "Geometry/CSCGeometryBuilder/data/cscSpecs.xml",
+      "Geometry/CSCGeometryBuilder/data/cscSpecsFilter.xml",
+      # Numbering
+      "Geometry/MuonCommonData/data/muonNumbering.xml",
+      # Yoke (relevant for simulation only)      
+      "Geometry/MuonCommonData/data/muonYoke.xml",
+      # Sensitive volumes (relevant for simulation only)
+      "Geometry/MuonSimData/data/muonSens.xml"
+   } 
+
    string rootNodeName = "cms:OCMS"
 }
