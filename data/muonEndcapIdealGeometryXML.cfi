@@ -1,6 +1,7 @@
 #
 #  This cfi should be included to parse the muon standalone XML geometry.
 #
+es_module = MuonNumberingInitialization { }
 
 es_source = XMLIdealGeometryESSource
 {
